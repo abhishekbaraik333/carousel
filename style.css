@@ -1,0 +1,42 @@
+@font-face {
+    font-family: carousel-light;
+    src: url(./0078f486-8e52-42c0-ad81-3c8d3d43f48e.woff2);
+}
+@font-face {
+    font-family: carousel;
+    src: url(./8vIH7w4qzmVxm2BL9G78HEY.woff2);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "carousel-light",sans-serif;
+    font-weight: 400;
+    scroll-behavior: smooth;
+}
+
+nav a{
+    font-family: "carousel-light",sans-serif;
+    font-weight: 500;
+}
+
+.title{
+    font-family: "carousel",sans-serif;
+}
+
+.heading{
+    font-family: "carousel",sans-serif;
+}
+
+.horse{
+    background: url(./images/11062b_2a610db0620242ddae2f901e670e9f16~mv2.webp) center no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+input{
+    border: 1px solid black;
+    background-color: #f7f7f7;
+    padding: 6px;
+    width: 100%;
+}
